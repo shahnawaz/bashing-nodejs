@@ -1,3 +1,8 @@
+/*
+* // Changing threadpool size
+* process.env.UV_THREADPOOL_SIZE = 5;
+*/
+
 import crypto from 'crypto';
 
 const start = Date.now();
