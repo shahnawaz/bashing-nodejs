@@ -2,7 +2,7 @@
 
 const pendingTimers = [];
 const pendingOSTasks = [];
-const pendingOperations = [];
+const pendingOperations = []; // including thread operations
 
 // New timers, tasks, operations are recorded from myFile running
 // When we start program, node immediately detects some initial tasks
