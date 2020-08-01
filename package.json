@@ -5,7 +5,8 @@
   "main": "event-loop.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "t-start": "export UV_THREADPOOL_SIZE=1 && npm run start"
   },
   "keywords": [],
   "author": "Shahnawaz Ali <mr_shah@live.com>",
@@ -14,3 +15,4 @@
     "express": "^4.17.1"
   }
 }
+
