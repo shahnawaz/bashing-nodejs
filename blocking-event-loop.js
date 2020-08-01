@@ -8,7 +8,7 @@ function doWork(duration) {
     // while this loop is running
     // our entire serve will block any other request
     // coming in
-    // Test: One 2 tabs and quickly enter the url
+    // Test: Open 2 tabs and quickly enter the url
     // the second tab will take >5s to load
     while (Date.now() - start < duration) {}
 }
