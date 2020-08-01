@@ -9,5 +9,8 @@
   },
   "keywords": [],
   "author": "Shahnawaz Ali <mr_shah@live.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
